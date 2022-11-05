@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;    
+}
+
+.grid {
+    display: flex;
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
+.mole {
+    background-image: url('mole.png');
+}
